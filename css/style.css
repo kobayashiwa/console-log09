@@ -1,0 +1,78 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	margin: 0;
+	font-family: 'Roboto Slab', serif;
+	color: #fff;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul, li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+.travel-wrapper {
+	background: url(../image/71071001.jpg);
+	background-size: cover;
+	padding: 80px 0;
+}
+h3 {
+	font-size: 64px;
+	font-weight: 200;
+	margin-bottom: 16px;
+}
+.travel-wrapper p {
+	font-size: 20px;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 2em;
+	line-height: 1.6;
+}
+.btn {
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: .2em;
+	display: inline-block;
+	color: #fff;
+	background: #297CBB;
+	padding: 12px 24px;
+	margin-top: 4em;
+	border-radius: 2em;
+}
+.btn span{
+	color: #FFF;
+	position: relative;
+	padding-right: 24px;
+}
+.btn span::after{
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 0;
+	width: 6px;
+	height: 6px;
+	border-top: 1px solid #fff;
+	border-right: 1px solid #fff;
+	transform: rotate(45deg);
+	margin-top: -4px;
+}
+
+@media (max-width: 1000px) {
+	h3 {
+		font-size: 48px;
+	}
+}
